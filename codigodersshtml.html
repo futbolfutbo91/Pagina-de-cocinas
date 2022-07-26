@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="codigopecss.css">
+	<title>Cocina y recetas</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+	<script src="codigodejs.js"></script>
+   <div class="bo">
+	<div class="tituloprin">Bienvenido a cocina y recetas</div>
+	<div class="menu">
+		<div class="recetas">Recetas</div>
+		<div class="camaron" onclick="camar()"><span class="material-icons">arrow_forward_ios</span>Camarones</div>
+		<div class="arrosp" onclick="ban()"><span class="material-icons">arrow_forward_ios</span>Arros con pollo</div>
+		<div class="pescado" onclick="pes()"><span class="material-icons">arrow_forward_ios</span>Pescado frito</div>
+		<div class="ajiaco" onclick="aji()"><span class="material-icons">arrow_forward_ios</span>Ajiaco</div>
+		<div class="bandeja" onclick="arrosp()"><span class="material-icons">arrow_forward_ios</span>Bandeja paisa</div>
+	</div>
+
+	<div class="menuc">
+		<div class="comid">Comidas</div>
+		<div class="am" onclick="ha2()">Hamburguesas</div>
+		<div class="pero" onclick="pe2()">Perros calientes</div>
+		<div class="pi" onclick="pi2()">Pizzas</div>
+		<div class="po" onclick="po2()">Pollo frito</div>
+		<div class="ar" onclick="ar2()">Arepas</div>
+		<div class="papas" onclick="pa2()">Papas fritas</div>
+		<div class="po" onclick="ga2()">Gaseosas</div>
+		<div class="ar" onclick="valle5()">Jugo del valle</div>
+	</div>
+
+
+	<div>
+		
+		<div id="bpa" class="informacion" visivility: hidden>
+			<div class="tipa" >Bandeja paisa</div>
+			<div class="tpa">
+				<img src="https://yumlyfood.com/wp-content/uploads/2022/04/bandeja-paisa-colombiana-receta.webp">
+			</div><br>
+			<div class="parra">
+				Paso 1 / 7<br><br>
+          		El día anterior dejar reposar en un recipiente con agua los frijoles.<br><br>
+
+				Paso 2 / 7<br><br>
+				Para preparar el arroz, agregamos 2 tazas de arroz y el doble de agua, es decir, 4 tazas de agua. Cuando el agua hierva añadir el arroz y la hoja de laurel. Cocinar a fuego medio durante 15 minutos. Apagar el fuego y dejar reposar cinco minutos tapando el recipiente. <br><br>
+
+				Paso 3 / 7<br><br>
+				Para los plátanos vamos a preparar una sartén con aceite. Sacar tajadas a los plátanos y freír hasta que estén dorados, luego dejar reposar en un plato con papel absorbente o de cocina.<br><br>
+
+				Paso 4 / 7<br><br>
+				Procedemos a preparar el hogao. Corta la cebolla y el tomate en dados, picar el ajo en trocitos muy pequeños. Sofreír la cebolla en aceite durante 4 minutos, sazonar con sal y agregar el tomate, incorporar el ajo y el comino, mezclar bien y cocinar durante 2 minutos.<br><br>
+
+				Paso 5 / 7<br><br>
+				Escurrir los frijoles y llevarlos a la olla de presión, añadir el hogao. Cubre con agua y dejar cocinar por 30 minutos aproximadamente.<br><br>
+
+				Paso 6 / 7<br><br>
+				En una sartén cocinar la carne y el chorizo hasta que estén bien dorados. Luego retirar y en la misma sartén freír los huevos. En otra sartén fritar los chicharrones.
+			</div>
+		</div>
+
+		<div id="bca" class="informacion" visivility: hidden>
+			<div class="tipa">Camarones</div>
+			<div class="tpa">
+				<img src="https://www.cocinayvino.com/wp-content/uploads/2021/04/www.cocinayvino.com-tres-platos-inusuales-para-disfrutar-los-camarones-camarones-e1619122494741-1024x576.jpg">
+			</div><br>
+			<div class="parra">
+				Limpia los camarones y déjales la cola.<br><br>
+				Mezcla el ajo, la hierba de limón, el vinagre, el cilantro y el aceite en un bol grande.<br><br>
+				Añade los camarones y cierra el recipiente.<br><br>
+				Lleva al refrigerador durante 3 horas o déjalas toda la noche anterior.<br><br>
+				Escurre los camarones y reserva.<br><br>
+				Corta las cebolletas en trozo de 5 cm.<br><br>
+				Ensarta los camarones en los palillos para las brochetas y las cebolletas.<br><br>
+				Toma una sartén y llévala a fuego medio.<br><br>
+				Agrega el azúcar y el agua.<br><br>
+				Remueve hasta que se disuelva el azúcar sin dejar hervir.<br><br>
+				Luego baja el fuego y deja cocer durante 5 minutos.<br><br>
+				Añade la corteza rallada, el chile y salsa de chile dulce.<br><br>
+				Deja que los ingredientes se incorporen durante 5 minutos más.<br><br>
+				Añade el zumo y remueve. Después deja que la salsa se enfríe.<br><br>
+				Cocina los camarones en la parrilla, sin cubrir.<br><br>
+				Déjalos en la parrilla hasta que cambien de color y están dorados por ambos lados.<br><br>
+				Sirve y acompaña con la salsa.
+			</div>
+		</div>
+
+		<div id="bpe" class="informacion" visivility: hidden>
+			<div class="tipa">Pescado fritos</div>
+			<div class="tpa">
+				<img src="https://www.comedera.com/wp-content/uploads/2022/05/pescado-frito-con-tostones-y-ensalada-500x500.jpg">
+			</div><br>
+			<div class="parra">
+				Cortar el pescado en 6 porciones, asegurarse de que no tenga espinas.<br><br>
+				Aliñar con jugo de limón, sal y pimienta por ambos lados y dejar reposar por 5 minutos<br><br>
+				Calentar aceite vegetal en una sartén de paredes altas. Por lo menos unos 5 cm de profundidad de aceite.<br><br>
+				Preparar el batido, en un bol colocar el harina y mientras baten con un tenedor agregar la cerveza, agregar sal, pimienta, y una pizca de aliño completo. Quieren un batido espeso como cola fría.<br><br>
+				Para probar el aceite dejen caer un poco del batido, debe flotar y empezar a dorarse de inmediato. Probar, así ven si la sazón del batido esta del gusto de ustedes.<br><br>
+				Bañar el pescado en el batido por ambos lados y freír unos 3 minutos por lado hasta que este dorado y crujiente.<br><br>
+				Sacar a un plato con toalla de papel, dejar estilar un poco y servir de inmediato con puré, ensalada de papas y ensalada chilena o papas fritas.<br><br>
+			</div>
+		</div>
+		
+		<div id="bac" class="informacion">
+			<div class="tipa">Ajiaco</div>
+			<div class="tpa">
+				<img src="https://hatoviejo.com/prueba/wp-content/uploads/2021/08/20210616_Ajiaco_005_1000.jpg">
+			</div><br>
+			<div class="parra">
+				En una olla grande, colocar el pollo, el maíz, el caldo de pollo, cilantro, la cebolla larga, ajo, sal y pimienta. Agregue el agua y poner a hervir, bajar el fuego a medio y cocinar durante unos 35 a 40 minutos, hasta que el pollo esté cocido y tierno. Retire el pollo y reservar.<br><br>
+				Continuar cocinando maíz durante 30 minutos más. Retirar la cebolla larga y añadir las papas rojas, papas blancas, y las Guascas. Cocine durante 30 minutos m<br><br>
+				Destape la olla y agregue la papa criolla y cocine a fuego lento durante 15 a 20 minutos,    sazonar con sal y pimienta.<br><br>
+				Cortar la carne de pollo en trozos pequeños y poner de nuevo en la olla. Servir el Ajiaco caliente con alcaparras y crema de leche.<br><br>
+			</div>
+		</div>
+
+		<div id="bap" class="informacion" visivility: hidden>
+			<div class="tipa">Arros con pollo</div>
+			<div class="tpa">
+				<img src="https://t1.rg.ltmcdn.com/es/posts/7/4/9/arroz_con_pollo_ecuatoriano_56947_orig.jpg">
+			</div><br>
+			<div class="parra">
+				Preparación<br><br>
+				Lavar, desinfectar y pesar todos los ingredientes.<br><br>
+				Picar finamente la cebolla, el ajo y el pimentón, cortar la zanahoria en cubos pequeños, la habichuela en trozos de 1 cm.<br><br>
+				En una olla disponer la pechuga de pollo y el Knorr Caldo de gallina, llevar a hervor y dejar cocer por 30 minutos, retirar la pechuga y desmenuzar.<br><br>
+				En una olla agregar el aceite vegetal y la cebolla el ajo y el pimentón hasta formar un sofrito, adicionar el arroz blanco y un litro del caldo donde se cocinó la pechuga, llevar a hervor y una vez seque agregar la zanahoria, la habichuela y la arveja, tapar y dejar cocinar por 15 minutos.<br><br>
+				Agregar la Fruco salsa de tomate cocineros, mezclar y servir.
+			</div>
+		</div>
+
+		<div id="ha" class="gridcontainer" visibility: hidden>
+			<div class="gridicon">
+				<img class="hambur" src="https://d31npzejelj8v1.cloudfront.net/media/catalog/product/l/a/la-charly-bembos-delivery.jpg">
+				<div>Precio $35.000</div>
+			</div>
+			<div class="gridicon">
+				<img class="hambur2" src="https://i.ytimg.com/vi/drckCY1hXEE/maxresdefault.jpg">
+				<div>Precio $27.000</div>
+			</div>			
+			<div class="gridicon">
+				<img class="hambur2" src="https://images.getduna.com/bdb25781-5218-4d23-9db8-d1028119f18e/3d3b89bab72f6861_HamburguesaSencilla.jpg?d=600x600">
+				<div>Precio $12.000</div>
+			</div>
+		</div>
+
+		<div id="pe" class="gridcontainerp" visibility: hidden>
+			<div class="gridicon">
+				<img class="hambur" src="https://misrecetascolombia.com/wp-content/uploads/2020/12/Perros-Calientes-Colombianos.jpg">
+				<div>Precio $32.000</div>
+			</div>
+			<div class="gridicon">
+				<img class="hambur2" src="https://www.zenu.com.co/wp-content/uploads/2020/09/perro-italiano.jpg">
+				<div>Precio $19.000</div>
+			</div>			
+			<div class="gridicon">
+				<img class="hambur2" src="https://mui.kitchen/__export/1624367536732/sites/muikitchen/img/2021/06/22/cuanto-tiempo-duran-los-perritos-calientes.png_1805569882.png">
+				<div>Precio $9.000</div>
+			</div>
+		</div>
+
+		<div id="pi" class="gridcontainerp" visibility: hidden>
+			<div class="gridicon">
+				<img class="hambur" src="https://img.lalr.co/cms/2018/10/10213933/pizza1.jpg?size=xl&ratio=r40_21">
+				<div>Precio $35.000</div>
+			</div>
+			<div class="gridicon">
+				<img class="hambur2" src="https://placeralplato.com/files/2016/05/Pizza-crocante.jpg">
+				<div>Precio $18.000</div>
+			</div>			
+			<div class="gridicon">
+				<img class="hambur2" src="https://gastronomiaycia.republica.com/wp-content/uploads/2019/07/20pizzascaserasverano2019.jpg">
+				<div>Precio $7.000</div>
+			</div>
+		</div>
+
+		<div id="po" class="gridcontainerp" visibility: hidden>
+			<div class="gridicon">
+				<img class="hambur" src="https://www.recetasconpollo.org/wp-content/uploads/2019/08/pollo-frito-por-el-mundo.jpg">
+				<div>Precio $36.000</div>
+			</div>
+			<div class="gridicon">
+				<img class="hambur2" src="https://noticiasya.com/wp-content/uploads/sites/3/2019/01/pollo-frito-i-noticiasya.jpg">
+				<div>Precio $29.000</div>
+			</div>			
+			<div class="gridicon">
+				<img class="hambur2" src="https://gastronomiaycia.republica.com/wp-content/uploads/2019/07/20pizzascaserasverano2019.jpg">
+				<div>Precio $9.000</div>
+			</div>
+		</div>
+
+		<div id="ar" class="gridcontainerare" visibility: hidden>
+			<div class="gridcontainerareb">
+				<img class="are3"src="https://cdn.kiwilimon.com/recetaimagen/37410/th5-640x640-47189.jpg">
+				<div>Precio $23.000</div>
+			</div>
+			<div class="gridcontainerareb">
+				<img class="are3"src="https://t2.rg.ltmcdn.com/es/posts/0/8/4/arepas_rellenas_de_carne_desmechada_55480_orig.jpg">
+				<div>Precio $15.000</div>
+			</div>
+			<div class="gridcontainerareb">
+				<img class="are3"src="https://www.recetasparavivirmejor.com/wp-content/uploads/2021/04/recetasparavivirmejor_arepa_de_carne_carnes_2021-22.jpg">
+				<div>Precio $11.000</div>
+			</div>
+			<div class="gridcontainerareb">
+				<img class="are3"src="https://www.mycolombianrecipes.com/wp-content/uploads/2010/04/Arepa-con-Carne-Desmechada.jpg">
+				<div>Precio $9.000</div>
+			</div>
+			<div class="gridcontainerareb">
+				<img class="are3"src="https://comidavenezolana.site/wp-content/uploads/2022/03/Arepa-de-Carne-Molida.jpg">
+				<div>Precio $8.000</div>
+			</div>
+			<div class="gridcontainerareb">
+				<img class="are3"src="https://media-cdn.tripadvisor.com/media/photo-s/02/30/39/3f/arepa-con-pollo-o-carne.jpg">
+				<div>Precio $6.000</div>
+			</div>
+		</div>
+
+		<div id="pa" class="gridcontainerpa" visibility: hidden>
+			<div class="pam">
+				<img class="ipa" src="https://www.cocinayvino.com/wp-content/uploads/2020/09/www.cocinayvino.com-curiosidades-de-las-papas-fritas-de-mcdonalds-papas-fritas-mcdonalds1-e1599169643487-1200x900.jpg">
+				<div>Precio $9.000</div>
+			</div>
+		</div>
+
+		<div id="ga" class="gridcontainerga" visibility: hidden>
+			<div class="gridcontainergas">
+				<img class="gac" src="https://carmencabrera.viveshops.co/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekZrU2c9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--55889f60742ce7b484690d1e4332ad158b7f453b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9TY21WemFYcGxYM1J2WDJacGRGc0hhUUlnQTJrQ0lBTTZER052Ym5abGNuUkpJZ2hxY0djR09nWkZWRG9LYzJGMlpYSjdDRG9NY1hWaGJHbDBlV2xmT2dwemRISnBjRlE2RDJKaFkydG5jbTkxYm1SYkNHa0IvMmtCLzJrQi93PT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--f9b6205701877dad933126b17f2a1a57fbbba520/77035684.jpg?locale=es">
+				<div>Precio $1.800</div>
+			</div>
+			<div class="gridcontainergas">
+				<img class="gaseos3" src="http://cdn.shopify.com/s/files/1/0284/4200/1443/products/GAS_SPRITE_1750_PET_grande.png?v=1593217449">
+				<div>Precio $2.900</div>
+			</div>
+			<div class="gridcontainergas">
+				<img class="gaseos3" src="https://exitocol.vtexassets.com/arquivos/ids/5794642-800-auto?v=637482086719330000&width=800&height=auto&aspect=true">
+				<div>Precio $1.500</div>
+			</div>
+			<div class="gridcontainergas">
+				<img class="gaseos3" src="https://static0.tiendeo.com.co/upload_articulos/241955/422587d4-59eb-5114-9ec1-b0b9e8f16d9f.jpg">
+				<div>Precio $1.700fadsvfhb</div>
+			</div>
+			<div class="gridcontainergas">
+				<img class="gaseos3" src="https://tiendaelsol.oficinapro.co/images/000107/large/169_0.jpg">
+				<div>Precio $1.800</div>
+			</div>
+			<div class="gridcontainergas">
+				<img class="gaseos3" src="https://www.merkadomi.com/wp-content/uploads/2018/07/IMG_0058.jpg">
+				<div>Precio $1.200</div>
+			</div>
+			<div class="gridcontainergas">
+				<img class="gaseos3" src="https://www.merkadomi.com/wp-content/uploads/2018/07/IMG_0052.jpg">
+				<div>Precio $1.800</div>
+			</div>
+			<div class="gridcontainergas">
+				<img class="gaseos3" src="https://static.merqueo.com/images/products/large/7cc900b9-71cd-47f4-b3b1-1d61d0ea9def.jpg">
+				<div>Precio $1.100</div>
+			</div>
+			<div class="gridcontainergas">
+				<img class="gaseos3" src="https://cdn.shopify.com/s/files/1/0492/2458/1274/products/supermercados_la_vaquita_supervaquita_jugo_hit_500ml_mango_bebidas_liquidas_700x700.jpg?v=1620489478">
+				<div>Precio $1.700</div>
+			</div>
+
+		</div>
+
+		<div id="valle" class="gridcontainerare" visibility: hidden>
+			<div class="gridcontainerareb" >
+				<img class="are3" src="https://www.merkadomi.com/wp-content/uploads/2018/07/JUGO-DEL-VALLE-NARANJA-2.5.jpg">
+				<div>Precio $2.300</div>
+			</div>
+			<div class="gridcontainerareb">
+				<img class="are3"src="https://walmartsv.vtexassets.com/arquivos/ids/179649/Jugo-Del-Valle-Sabor-Mandarina-2500Ml-1-3703.jpg?v=637642831484270000">
+				<div>Precio $2.100</div>
+			</div>
+			<div class="gridcontainerareb">
+				<img class="are3"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Tk1cwC5p-OW-kzFRvZle-am5vaRQOIBzFg&usqp=CAU">
+				<div>Precio $2.600</div>
+			</div>
+			<div class="gridcontainerareb">
+				<img class="are3"src="https://locatelcolombia.vtexassets.com/arquivos/ids/224440/7702535023730_1_REFRESCO-DEL-VALLE-MANGO-Y-FRESA-X-500ML.jpg?v=637230866951000000">
+				<div>Precio $2.300</div>
+			</div>
+			<div class="gridcontainerareb">
+				<img class="are3"src="https://surtitienda.vteximg.com.br/arquivos/ids/166362-750-750/00032239052147_A1C1.jpg?v=636862237035870000">
+				<div>Precio $2.800</div>
+			</div>
+			<div class="gridcontainerareb">
+				<img class="are3"src="https://tiendaelsol.oficinapro.co/images/000107/large/388_0.jpg">
+				<div>Precio $2.200</div>
+			</div>
+		</div>
+
+		
+
+	</div>
+
+		<div id="cer" class="cerf" onclick="cer2()">
+			<span class="material-icons">close</span>
+		</div>
+
+		<div class="fim">
+			Copyrigth reserver rigths. contacto: 377 876 98 66 <span class="material-icons">phone_in_talk</span> 
+			    Redes sociales: <span class="material-icons">people_outline</span> 
+
+		</div>
+   </div>
+
+</body>
+</html>
